@@ -18,6 +18,4 @@ http.createServer(function(request, response) {
         return;
     }
     response.end();
-}).listen(3000, '127.0.0.1', () => {
-    console.log('Server is listening at http://127.0.0.1:3000');
-});
+}).listen(process.env.PORT || 5000);

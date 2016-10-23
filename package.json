@@ -2,10 +2,15 @@
   "name": "battleship",
   "version": "1.0.0",
   "description": "A battleship game built using HTML, CSS, and Javascript",
-  "main": "index.html",
+  "main": "static/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && node server.js"
   },
   "author": "Tim Normington",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": "https://github.com/tnormington/battleship",
+  "engines": {
+    "node": "5.1.0"
+  }
 }
